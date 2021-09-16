@@ -1,9 +1,9 @@
 from telethon.tl import functions, types
 
-import ShasaBot.modules.sql.elevated_sql as sql
-from ShasaBot import tbot
-from ShasaBot.modules.sql.chats_sql import add_chat, get_all_chat_id, is_chat, rmchat
-from ShasaBot.modules.sql.setbio_sql import (
+import DawnBot.modules.sql.elevated_sql as sql
+from DawnBot import tbot
+from DawnBot.modules.sql.chats_sql import add_chat, get_all_chat_id, is_chat, rmchat
+from DawnBot.modules.sql.setbio_sql import (
     check_bio_status,
     get_all_bio_id,
     is_bio,
